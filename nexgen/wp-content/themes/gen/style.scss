@@ -1,0 +1,32 @@
+/*!
+Theme Name: maidot
+Theme URI: https://www.maidot.pt
+Author: Maidot
+Author URI: https://www.maidot.pt
+Description: Maidot Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: maidot
+Tags:
+*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "_normalize.scss";
+
+
+/*--------------------------------------------------------------
+#Flex Framework and Base Components
+--------------------------------------------------------------*/
+@import "utilities/_all";
+@import "base/_all";
+@import "elements/_all";
+@import "components/_all";
+@import "grid/_all";
+@import "layout/_all";
+@import "sass/mixins/_all";
+@import "sass/helpers/_all";
+@import "sass/variables/_all";
+@import "styling";
